@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+}
+
+.title {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#contact-us {
+  color: green;
+}
