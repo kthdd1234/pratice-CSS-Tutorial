@@ -1,3 +1,3 @@
-# pratice-CSS-Tutorial
+# CSS-Tutorial
 
-CSS Tutorial-Zero to Hero(CSS 기초 강의 정리)
+생활코딩의 CSS 수업 정리
