@@ -1,0 +1,40 @@
+li:first-child {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: steelblue;
+}
+
+li:hover {
+  color: blue;
+}
+
+li:only-child {
+  color: red;
+}
+
+/* a 태그 링크를 클릭 했을때 폰트가 green */
+a:active {
+  color: green;
+}
+
+/* a 태그 링크에 그냥 올려 놓았을때 폰트가 red */
+a:hover {
+  color: red;
+}
+
+/* 방문한 링크 */
+a:visited {
+  color: turquoise;
+}
+
+/* 방문하지 않은 링크 */
+a:link {
+  color: yellow;
+}
+
+/* tab 키를 누르고 엔터를 누르면 해당 링크 접속 */
+a:focus {
+  color: wheat;
+}
