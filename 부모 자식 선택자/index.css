@@ -1,3 +1,7 @@
+/* 웹 페이지에 있는 모든 선태그를 가리키는 선택자  */
+* {
+}
+
 /* ul 태그의 직계 자손 li 태그의 폰트 컬러를 blue 로 한다. */
 ul > li {
   color: blue;
@@ -17,4 +21,14 @@ ul li {
 ul,
 ol {
   background-color: powderblue;
+}
+
+/* A + B: A 태그 옆에 인접한 하나의 B 태그   */
+div + a {
+  color: tomato;
+}
+
+/* A ~ B: A 에 인접한 모든 B 의 태그  */
+div ~ a {
+  background-color: turquoise;
 }
