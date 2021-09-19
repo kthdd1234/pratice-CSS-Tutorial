@@ -1,0 +1,22 @@
+/* li {
+  color: red;
+}
+
+h1 {
+  color: red;
+} */
+
+/* 웹페이지를 감싸고 있는 루트 태그 */
+/* html 태그의 모든 하위 요소들에 color: red 속성을 상속 */
+html {
+  color: red;
+}
+
+#select {
+  color: gray;
+}
+
+/* border 는 상속이 안됨  */
+body {
+  border: 1px solid red;
+}
