@@ -1,0 +1,24 @@
+/*  
+- font-family 는 서체를 지정하는 속성
+- font-weight 는 폰트의 두께를 나타내는 속성
+- line-height 는 행과 행 사이의 간격을 지정. 기본 값은 1.2  
+- font 로 축약해서 사용할 수 있음
+*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap');
+
+p {
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  /* font: bold 5rem/2 Arial, Helvetica, sans-serif; */
+}
+
+/* 
+웹폰트?
+웹폰트는 사용자가 가지고 있지 않은 폰트를 웹페이지에서 사용할 수 있는 방법입니다.
+*/
+
+div {
+  font-family: 'Nanum Brush Script', cursive;
+}
