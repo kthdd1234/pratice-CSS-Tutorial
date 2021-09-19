@@ -1,0 +1,13 @@
+/*
+
+- color: red, blue, green....
+- rgb: (red, green, blue)
+- hex: #fff
+
+*/
+
+h1 {
+  /* color: red; */
+  /* color: #ff0000; */
+  color: rgb(255, 0, 0);
+}
