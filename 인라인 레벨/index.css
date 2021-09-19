@@ -1,0 +1,20 @@
+/*
+    display: inline;
+    -> 자신의 컨텐츠 만큼을 사용함
+
+    display: block;
+    -> 한줄을 다씀
+*/
+
+h1,
+a {
+  border: 1px solid red;
+}
+
+h1 {
+  display: inline;
+}
+
+a {
+  display: block;
+}
