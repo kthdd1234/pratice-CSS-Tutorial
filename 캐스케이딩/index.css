@@ -1,0 +1,26 @@
+/* 
+
+- cascading 
+하나의 태그에 중첩해서 CSS 가 적용되었을때 우선 순위를 정하는 것
+
+♦︎ 우선순위
+1) style attribute
+2) id selector
+3) class selector
+4) tag selector 
+
+★ 모든 우선 순위를 뛰어넘을 수 있는 방법: !important
+
+*/
+
+li {
+  color: red !important;
+}
+
+#idsel {
+  color: blue;
+}
+
+.classsel {
+  color: green;
+}
