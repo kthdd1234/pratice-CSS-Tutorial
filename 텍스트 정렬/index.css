@@ -1,0 +1,11 @@
+/*
+text-align: justify;
+- 문자열의 양쪽을 균등하게 분배하는 속성.
+
+*/
+p {
+  padding: 5rem;
+  /* text-align: center; */
+  text-align: justify;
+  border: 1px solid gray;
+}
