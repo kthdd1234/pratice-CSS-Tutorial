@@ -1,0 +1,74 @@
+/* 
+- 포지션: HTML 요소가 화면상에 어디에 위치할 것인가를 결정하는 것 
+
+static: 기본적으로 CSS 의 각각의 엘리먼트들은 포지션의 기본(static) 값을 갖고 있다.
+{ postion: static; }
+
+relative: 부모 엘리먼트 안에서 상대적으로 원하는 위치에 이동하고 싶을 경우 relative 를 사용
+{ position: relative; }
+*/
+
+html {
+  border: 1px solid gray;
+}
+
+div {
+  border: 5px solid tomato;
+  margin: 10px;
+}
+
+#me {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+/* 
+absolute: 
+1) absolute 를 사용하면 더 이상 부모의 소속이 아님
+2) 대신에 부모 엘리먼트의 position 속성이 relative 라면 부모 엘리먼트의 위치를 기준으로 해서 위치가 지정 됨
+{ postion: absolute }
+*/
+
+#grand,
+#parent,
+#other {
+  border: 5px solid tomato;
+}
+
+#grand {
+  position: relative;
+}
+
+#parent {
+  position: relative;
+}
+
+#me {
+  /* absolute 를 지정하게 되면 absolute 의 left 와 top 은 0px, 0px 이 아니고 부모 엘리먼트를 기준으로 원래 자기가 위치해야 될 위치가 기본값으로 left 와 top 이 지정됨 */
+  position: absolute;
+  background-color: black;
+  color: wheat;
+  left: 0;
+  top: 0;
+}
+
+/* 
+fixed:
+특정한 엘리먼트를 화면상에 원하는 위치에 고정시켜서 스크롤로부터 완전히 독립되게 하는 속성
+*/
+
+#large {
+  height: 100000px;
+  background-color: tomato;
+}
+
+#me {
+  position: fixed;
+  color: whitesmoke;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
