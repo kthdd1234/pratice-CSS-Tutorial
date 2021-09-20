@@ -1,0 +1,40 @@
+/*
+- 마진 겹침:
+위에 있는 태그와 아래 있는 태그의 margin 값 중에 더 큰 값이 두개의 태그 사이의 간격이 된다. 
+*/
+
+h1 {
+  border: 1px solid red;
+  margin: 100px;
+}
+
+/*
+- 부모 엘리먼트 아래에 자식 엘리먼트가 있고 부모 엘리먼트와 자식 엘리먼트 모두 margin 값이 있을때 발생할 수 있는 겹침 현상이 있다면? 
+부모 엘리먼트가 시각적으로 아무런 효과도 없는 투명한 상태가 되면 자식 엘리먼트와 부모 엘리먼트에 margin 값이 합쳐지는 결과를 낳음
+즉, 부모가 투명하고 부모 엘리먼트에 margin 값과 자식 엘리먼트에 margin 값이 서로 비교했을때 더 큰 쪽에 margin 값을 사용하게 됨
+*/
+
+#parent {
+  /* border: 1px solid tomato; */
+  margin-top: 100px;
+}
+
+#child {
+  background-color: powderblue;
+  margin-top: 50px;
+}
+
+/* 
+- 시간적인 요소가 없는 엘리먼트의 margin 값은 위쪽에 있는 margin 값과 아래쪽에 있는 margin 값 중에 더 큰 값이 그 엘리먼트에 margin 값이 된다.
+*/
+
+#empty {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  /* border: 1px solid tomato; */
+}
+
+#normal {
+  background-color: powderblue;
+  margin-top: 100px;
+}
