@@ -1,0 +1,36 @@
+.container {
+  background-color: powderblue;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  background-color: tomato;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
+.item:nth-child(2) {
+  /* 두번째 아이템 크기 조절 */
+  flex-basis: 200px;
+
+  /* 두번째 아이템을 좀 더 많은 공간을 차지 */
+  flex-grow: 2;
+}
+
+/* flex-grow 속성: 컨테이너 내부의 각 아이템들을 똑같은 크기로 채우게 하는 속성  */
+.item {
+  flex-grow: 1;
+}
+
+/* flex-shink: 기본적으로 어떤 특정한 아이템이 basis 값을 가지고 있을때 그 basis 값보다 줄어들지 않음  */
+.item:nth-child(1) {
+  flex-basis: 150px;
+  flex-shrink: 1;
+}
+
+.item:nth-child(2) {
+  flex-basis: 150px;
+  flex-shrink: 4;
+}
