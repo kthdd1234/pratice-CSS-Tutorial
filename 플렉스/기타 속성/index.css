@@ -1,0 +1,68 @@
+/* flex-wrap(property of the flex container) */
+.container {
+  /* 기본값 */
+  flex-wrap: nowrap;
+
+  /* 컨테이너의 크기보다 아이템들의 총 합의 크기가 크다면 아이템이 줄바꿈이 되서 아랫줄로 내려감 */
+  flex-wrap: wrap;
+
+  /* wrap 에서 상하반전 */
+  flex-wrap: wrap-reverse;
+}
+
+/* align-items(property of the flex container): 수직으로 위치를 결정 */
+.container {
+  /* 기본값 */
+  align-items: stretch;
+
+  /* 위쪽 */
+  align-items: flex-start;
+
+  /* 아래쪽 */
+  align-items: flex-end;
+
+  /* 중간 */
+  align-items: center;
+
+  /* 가상의 줄을 기준으로 나열 */
+  align-items: baseline;
+}
+
+/* justify-content(property of the flex container): 수평으로 위치를 결정 */
+.container {
+  /* 왼쪽 */
+  justify-content: flex-start;
+
+  /* 오른쪽 */
+  justify-content: flex-end;
+
+  /* 중간  */
+  justify-content: center;
+
+  /* 요소들 사이에 동일한 간격으로 벌어짐 */
+  justify-content: space-between;
+
+  /* 요소들 주위에 동일한 간격으로 벌어짐 */
+  justify-content: space-around;
+
+  /* 아이템들의 사이와 양 끝에 균일한 간격을 만들어 줍니다. */
+  justify-content: space-evenly;
+}
+
+/* align-self(property for flex items) */
+/* 특정한 아이템만 속성을 지정할 수 있음 */
+.item {
+  /* 기본 값 */
+  align-self: auto;
+}
+
+/* flex 축약형(property for flex items) */
+.item {
+  /* { flex: flex-grow [flex-shrink] [flex-basis]; } */
+  flex: 1 0 100%;
+}
+
+/* order(property for flex items): 아이템의 우선 순위를 지정 */
+.item2 {
+  order: -1;
+}
