@@ -1,0 +1,25 @@
+/* 
+Media query 
+반응형 디자인: 화면의 크기에 능동적으로 디자인이 반응해서 거기에 최적화된 모습을 보여준다.
+*/
+
+/* 브라우저 사이즈가 600px 일때 @media 가 실행되고 600px 이하에 적용. */
+@media (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* 브라우저 사이즈가 500px 일때 @media 가 실행되고 500px 이하에 적용 */
+@media (max-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* 브라우저 사이즈가 601px 일때 @media 가 실행되고 601px 이상에 적용  */
+@media (min-width: 601px) {
+  body {
+    background-color: blue;
+  }
+}
