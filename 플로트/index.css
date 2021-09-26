@@ -1,0 +1,12 @@
+/* float 속성: 글의 본문 안에서 이미지를 삽입할때 좀 더 자연스럽게 삽입하는 기법 또는 레이아웃을 구성할때 사용 */
+
+img {
+  width: 20rem;
+  float: left;
+  /* float: right; */
+  margin: 0.7rem;
+}
+
+p {
+  border: 1px solid gray;
+}
