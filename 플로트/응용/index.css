@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 45rem;
+  border: 1px solid gray;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid gray;
+}
+
+/* float: left 는 밑에 있는 요소를 왼쪽으로 위치 */
+nav {
+  float: left;
+  width: 10rem;
+  border-right: 1px solid gray;
+  margin-left: -1px;
+}
+
+article {
+  float: left;
+  width: 20rem;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin-left: -1px;
+}
+
+nav,
+article,
+aside {
+  border-left: 1px solid gray;
+}
+
+aside {
+  float: left;
+  width: 12rem;
+  margin-left: -1px;
+}
+
+footer {
+  clear: both;
+  border-top: 1px solid gray;
+  text-align: center;
+  padding: 1rem;
+}
