@@ -1,0 +1,27 @@
+.column {
+  /* text 양쪽 줄 간격을 일정하게 유지 */
+  text-align: justify;
+
+  /* text 를 분할1 */
+  column-count: 4;
+
+  /* text 를 분할2 */
+  column-width: 17rem;
+
+  /* column 과 column 사이의 간격을 지정 */
+  column-gap: 2rem;
+
+  /* column 과 column 사이 선(단선, 절취선...)을 생성 */
+  column-rule-style: dotted;
+
+  /* column 과 column 사이 선의 두께를 지정*/
+  column-rule-width: 0.3rem;
+
+  /* column 과 column 사이 선의 색깔을 지정 */
+  column-rule-color: blue;
+}
+
+h1 {
+  /* column 의 위치에 구애받지 않고 자기 위치로 찾아감 */
+  column-span: all;
+}
