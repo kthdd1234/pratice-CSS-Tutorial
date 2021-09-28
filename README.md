@@ -1,7 +1,3 @@
-# CSS-Tutorial
-
-생활코딩의 CSS 수업 정리
-
 # 설치 프로그램 리스트
 1. Unity
 2. Unity-hub
