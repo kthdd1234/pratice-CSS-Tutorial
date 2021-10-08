@@ -45,10 +45,10 @@
 - 설치 경로: <https://dev.mysql.com/downloads/workbench/>
 - 버전 : 8.0.26
 - 연결 방법:
-  1. MySQL Workbench 접속 후 MySQL Connections 오른쪽에 있는 플러스 버튼 클릭
-  2. Connection Name: 임의로 지정
-  3. Hostname: ec2-13-125-166-73.ap-northeast-2.compute.amazonaws.com
-  4. Port: 53306
-  5. Username: dbapp
-  6. Password: Store in Vault... 클릭 -> Password 에 mysqlpup 입력 -> OK 버튼 클릭
-  7. Test Connection 클릭 -> 연결되면 OK 버튼 클릭
+  > MySQL Workbench 접속 후 MySQL Connections 오른쪽에 있는 플러스 버튼 클릭
+  > Connection Name: 임의로 지정
+  > Hostname: ec2-13-125-166-73.ap-northeast-2.compute.amazonaws.com
+  > Port: 53306
+  > Username: dbapp
+  > Password: Store in Vault... 클릭 -> Password 에 mysqlpup 입력 -> OK 버튼 클릭
+  > Test Connection 클릭 -> 연결되면 OK 버튼 클릭
